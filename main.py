@@ -178,7 +178,7 @@ def run_game():
         #     screen.blit(text_surface, text_surface_rect)
         #     is_restart, is_quit = gf.check_game_control_event()
         #     if is_restart:
-        #         run_game()
+        #         main()
         #     if is_quit:
         #         pygame.quit()
         pygame.display.flip()
