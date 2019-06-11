@@ -112,8 +112,6 @@ class Some_coins(Coins):
         self.coins_num = self.ai_settings.some_coins_num
 
 
-
-
 class Lots_of_coins(Coins):
     def __init__(self, x, y, ai_settings, screen, target):
         super().__init__(ai_settings, screen, target)
@@ -124,8 +122,6 @@ class Lots_of_coins(Coins):
         self.coins_num = self.ai_settings.lots_of_coins_num
 
 
-
-
 class Massive_coins(Coins):
     def __init__(self, x, y, ai_settings, screen, target):
         super().__init__(ai_settings, screen, target)
@@ -134,4 +130,3 @@ class Massive_coins(Coins):
         self.rect.centerx = x
         self.rect.centery = y
         self.coins_num = self.ai_settings.massive_coins_num
-

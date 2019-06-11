@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/game_functions.py" line="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04f425d8-6745-4f79-92b6-86c2a29696d2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/materials/sounds/bgm/00000004090F Main Menu主题2.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/sounds/hurt/玩家中等伤1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/sounds/hurt/玩家中等伤2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/sounds/hurt/玩家死亡.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/sounds/hurt/玩家轻伤1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/sounds/hurt/玩家轻伤2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/materials/sounds/hurt/玩家重伤.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bullet.py" beforeDir="false" afterPath="$PROJECT_DIR$/bullet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/BigAdventure1.0.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/Include/pyconfig.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/SDL.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/SDL_image.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/SDL_mixer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/SDL_ttf.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/VCRUNTIME140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_bz2.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_contextvars.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_ctypes.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_decimal.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_hashlib.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_lzma.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_multiprocessing.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_queue.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_socket.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/_ssl.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/lib2to3/Grammar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/lib2to3/Grammar3.7.2.final.0.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/lib2to3/PatternGrammar.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/lib2to3/PatternGrammar3.7.2.final.0.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/lib2to3/tests/data/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libcrypto-1_1-x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libfreetype-6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libjpeg-8.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libmpg123-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libogg-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libopenblas.IPBC74C7KURV7CB2PKT5Z5FNR3SIBV4J.gfortran-win_amd64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libpng16-16.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libssl-1_1-x64.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libtiff-5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libvorbis-0.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libvorbisfile-3.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/libwebp-5.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/main.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice_road1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice_road2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice_road3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice_road4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice_road5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice_wall1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/ice/ice_wall2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/stairsup.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/backgrounds/starsdown.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bear_right0.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/booms/boom_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/booms/boom_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/booms/boom_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/booms/boom_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/booms/boom_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/booms/boom_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/black_fireball/black_fireball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/ground_needle/ground_needle0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/ground_needle/ground_needle1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/ground_needle/ground_needle2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/ground_needle/ground_needle3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/ground_needle/ground_needle4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/ground_needle/ground_needle5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-1 _2__爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-1_爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-2 _2__爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-2_爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-3 _2__爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-3_爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-4_爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-5_爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-6_爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-7_爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙火球/《银子弹超级充能人》横版街机游戏资源-8_爱给网_aigei_com.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙酸/-酸_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙酸/酸_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙酸/酸_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙酸/酸_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙酸/酸_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/boss_skills/龙酸/酸_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/normal/bluebullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/normal/fireball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/normal/lightning_ball.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/normal/redbullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/normal/火球_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/normal/蓝火球_002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/coin_bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/skull_bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/大火球/大火球0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/大火球/大火球1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/大火球/大火球2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/旋风子弹.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射8.png.baiduyun.uploading.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/火焰喷射/火焰喷射9.png.baiduyun.uploading.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/蓝光魔法弹/蓝光魔法弹1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/蓝光魔法弹/蓝光魔法弹2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/蓝光魔法弹/蓝光魔法弹3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/蓝光魔法弹/蓝光魔法弹4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/蓝光魔法弹/蓝光魔法弹5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/bullets/special/螺旋丸手里剑/螺旋丸手里剑9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/coins/coins1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/coins/coins2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/coins/coins3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_left0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_left3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_left4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_left5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_right0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_right3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_right4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/black_dragon/black_dragon_right5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_left0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_left3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_left4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_left5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_right0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_right3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_right4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/blue_dragon/blue_dragon_right5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldie_slash/skeleton_soldier_left_slash0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldie_slash/skeleton_soldier_left_slash1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldie_slash/skeleton_soldier_right_slash0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldie_slash/skeleton_soldier_right_slash1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldier/skeleton_soldier_left0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldier/skeleton_soldier_left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldier/skeleton_soldier_left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldier/skeleton_soldier_left3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldier/skeleton_soldier_right0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldier/skeleton_soldier_right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldier/skeleton_soldier_right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/skeleton_soldier/skeleton_soldier_right3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_left0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_left3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_left4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_right0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_right3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/monsters/unicorn/unicorn_right4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/Death/Death8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/fortune_cat/fortune_cat0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/fortune_cat/fortune_cat1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/fortune_cat/fortune_cat2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/fortune_cat/fortune_cat3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/fortune_cat/fortune_cat4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/fortune_cat/fortune_cat5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/little_girl/little_girl0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/little_girl/little_girl1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/little_girl/little_girl2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/little_girl/little_girl3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/little_girl/little_girl4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/little_girl/little_girl5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/npc/little_girl/little_girl6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_death/bear_death0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_death/bear_death1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_death/bear_death2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_death/bear_death3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_death/bear_death4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_death/bear_death5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_death/bear_death6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_death/bear_death7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_left/bear_left0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_left/bear_left1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_left/bear_left2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_left/bear_left3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_left/bear_left4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_left/bear_left5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_right/bear_right0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_right/bear_right1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_right/bear_right2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_right/bear_right3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_right/bear_right4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/roles/bear_right/bear_right5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/treasures/ruby_dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/treasures/ruby_raw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/treasures/ruby_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/treasures/sapphire_dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/treasures/sapphire_raw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/images/treasures/sapphire_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/000000040928 谜之音乐.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/000000040983 竞技回合结束音乐.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/000000040984 沃斯卡亚工业区主题.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/0000000423E8 半藏 竜.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/000000043135 谜之音乐.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/00000004B36C 多拉多主题.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/00000004B465 66号公路 主题进攻.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/00000005F317 海边.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/00000005F414 敲钟.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/00000005F48A 漓江塔主题.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/00000005F55E 伊利奥斯主题.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/00000005F94F 监测站：直布罗陀.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bgm/00000004090F Main Menu主题2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bgm/00000004091E 花村主题.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bgm/000000040959 花村主题.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bgm/万圣节音乐.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bgm/花村游戏机音乐1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bgm/花村游戏机音乐2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bgm/花村游戏机音乐3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/清脆枪声1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/清脆枪声2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/清脆枪声3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/清脆枪声4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/清脆枪声5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/清脆枪声6.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/清脆枪声7.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/激光枪（中） (2).ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/激光枪（中）.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/激光枪（沉闷）.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/激光枪（清脆）.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/远处爆炸.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/bullet_sounds/远距离能量炮.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/defeat/000000040961 运载目标抵达检查点（防守方）.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/defeat/【DVA】小小的失败而已，我们还是可以赢的。.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/defeat/【禅雅塔】失败才能获胜。.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/defeat/【雅典娜】战败。.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/defeat/【音效】失败.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/0000000606AA 阴笑（深沉）.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/三个硬币声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/两个硬币声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/俏皮的欢迎光临.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/单一硬币声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/复古游戏捡到东西.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/复古游戏捡到东西2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/大量金币声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/女孩说欢迎光临.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/宝物.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/小袋金币声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/收银声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/猫叫.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/神奇宝物（回荡）.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/阴笑声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/other sound effect/高抛硬币.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/victory/000000040905 夏季运动会音效.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/victory/000000040930 胜利音乐.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/victory/000000060214 夏季运动会进球.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/万圣节音乐.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/冲锋枪近处.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/冲锋枪远处.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/吉他片段.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/快速移动的阵风.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/机械变形2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/机械变形声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/水声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/游戏厅.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/游戏厅2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/猩猩吼叫.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/生锈铁栏1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/生锈铁栏2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/生锈铁栏3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/生锈铁栏4.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/生锈铁栏5.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/破旧木栏.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/类似失败音.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/能量恢复.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/能量球.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/花村游戏机音乐1.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/花村游戏机音乐2.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/花村游戏机音乐3.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/警报蜂鸣声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/酒吧酒杯声.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/铁管掉地.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/长枪远处.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/materials/sounds/龙.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/numpy/core/_multiarray_tests.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/numpy/core/_multiarray_umath.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/numpy/fft/fftpack_lite.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/numpy/linalg/_umath_linalg.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/numpy/linalg/lapack_lite.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/numpy/random/mtrand.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pyexpat.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/_freetype.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/base.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/bufferproxy.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/cdrom.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/color.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/constants.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/display.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/draw.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/event.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/fastevent.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/font.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/image.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/imageext.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/joystick.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/key.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/mask.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/math.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/mixer.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/mixer_music.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/mouse.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/overlay.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/pixelarray.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/pixelcopy.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/rect.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/rwobject.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/scrap.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/surface.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/surflock.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/time.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/pygame/transform.cp37-win_amd64.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/python37.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/select.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/ucrtbase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/unicodedata.pyd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/BigAdventure/zlib1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maze.py" beforeDir="false" afterPath="$PROJECT_DIR$/maze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monster.py" beforeDir="false" afterPath="$PROJECT_DIR$/monster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/non_player_character.py" beforeDir="false" afterPath="$PROJECT_DIR$/non_player_character.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/probe.py" beforeDir="false" afterPath="$PROJECT_DIR$/probe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound.py" beforeDir="false" afterPath="$PROJECT_DIR$/sound.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tile.py" beforeDir="false" afterPath="$PROJECT_DIR$/tile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/treasure.py" beforeDir="false" afterPath="$PROJECT_DIR$/treasure.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="BigAdventure1.0" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="8" column="22" selection-end-line="205" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maze.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maze.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="39" selection-end-line="223" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monster.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/monster.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="15" column="16" selection-end-line="458" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="non_player_character.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/non_player_character.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="19" column="15" selection-end-line="201" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/player.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2112">
+              <caret line="98" column="30" lean-forward="true" selection-end-line="192" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="probe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/probe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="26" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="35" column="29" lean-forward="true" selection-end-line="720" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sound.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sound.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2068">
+              <caret line="96" lean-forward="true" selection-end-line="135" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tile.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="8" lean-forward="true" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="treasure.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/treasure.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>attack</find>
+      <find>player</find>
+      <find>player_energy</find>
+      <find>sound</find>
+      <find>ATK</find>
+      <find>block</find>
+      <find>skull_bullet_multiple</find>
+      <find>skull</find>
+      <find>centerx</find>
+      <find>check_interaction_event</find>
+      <find>health</find>
+      <find>atk</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>middle</replace>
+      <replace>severe</replace>
+      <replace>MonsterBullet</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/monster.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/tile.py" />
+        <option value="$PROJECT_DIR$/treasure.py" />
+        <option value="$PROJECT_DIR$/bullet.py" />
+        <option value="$PROJECT_DIR$/probe.py" />
+        <option value="$PROJECT_DIR$/player.py" />
+        <option value="$PROJECT_DIR$/non_player_character.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/maze.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/game_functions.py" />
+        <option value="$PROJECT_DIR$/sound.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="370" />
+    <option name="y" value="161" />
+    <option name="width" value="975" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="BigAdventure1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BigAdventure1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Professional Program\PyCharm Community Edition 2018.1.4\pyprojects\BigAdventure1.0\materials\sounds\hurt" />
+      <recent name="D:\Professional Program\PyCharm Community Edition 2018.1.4\pyprojects\BigAdventure1.0\materials\sounds\bgm" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BigAdventure1.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04f425d8-6745-4f79-92b6-86c2a29696d2" name="Default" comment="" />
+      <created>1557717923738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557717923738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62554115" visible="true" weight="0.15191546" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.33333334" />
+      <window_info anchor="bottom" id="Statistic" order="11" sideWeight="0.8435195" weight="0.35536295" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50792605" side_tool="true" visible="true" weight="0.34653464" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49936143" weight="0.3295711" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49867898" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49207398" visible="true" weight="0.34653464" />
+      <window_info id="Structure" order="1" sideWeight="0.5018657" side_tool="true" weight="0.165786" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49420443" weight="0.241342" />
+      <window_info id="Favorites" order="2" sideWeight="0.37445888" side_tool="true" visible="true" weight="0.15191546" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993395" weight="0.39886847" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4400">
+          <caret line="200" column="19" selection-start-line="200" selection-start-column="19" selection-end-line="200" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4686">
+          <caret line="215" column="57" selection-start-line="215" selection-start-column="57" selection-end-line="215" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9240">
+          <caret line="427" column="19" selection-start-line="427" selection-start-column="13" selection-end-line="427" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2860">
+          <caret line="133" column="27" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bullet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4686">
+          <caret line="215" column="57" selection-start-line="215" selection-start-column="57" selection-end-line="215" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/non_player_character.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9174">
+          <caret line="420" column="23" selection-start-line="420" selection-start-column="18" selection-end-line="420" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4400">
+          <caret line="200" column="19" selection-start-line="200" selection-start-column="19" selection-end-line="200" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bullet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9240">
+          <caret line="427" column="19" selection-start-line="427" selection-start-column="13" selection-end-line="427" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/non_player_character.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1892">
+          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9174">
+          <caret line="420" column="23" selection-start-line="420" selection-start-column="18" selection-end-line="420" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2398">
+          <caret line="110" column="45" lean-forward="true" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4664">
+          <caret line="214" column="17" selection-start-line="214" selection-start-column="17" selection-end-line="214" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3586">
+          <caret line="163" column="26" selection-start-line="155" selection-end-line="156" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3432">
+          <caret line="163" column="26" lean-forward="true" selection-start-line="155" selection-end-line="156" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3256">
+          <caret line="155" column="54" lean-forward="true" selection-start-line="155" selection-end-line="156" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.spec">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/game_start.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bullet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5653">
+          <caret line="5" column="15" lean-forward="true" selection-end-line="280" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="194" column="41" lean-forward="true" selection-end-line="200" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="22" selection-end-line="205" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="39" selection-end-line="223" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="16" selection-end-line="458" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/non_player_character.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="15" selection-end-line="201" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/player.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="98" column="30" lean-forward="true" selection-end-line="192" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/probe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="26" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="35" column="29" lean-forward="true" selection-end-line="720" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sound.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="96" lean-forward="true" selection-end-line="135" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="8" lean-forward="true" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/treasure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

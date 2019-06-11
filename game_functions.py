@@ -1,4 +1,5 @@
 import sys
+import settings
 import pygame
 
 
@@ -6,7 +7,7 @@ global mouse_x, mouse_y
 
 
 def check_events(player):
-    """Respond to keypress and mouse events."""
+    restart = 0
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
@@ -20,6 +21,12 @@ def check_events(player):
                 player.moving_top = True
             if event.key == pygame.K_DOWN or event.key == ord('s'):
                 player.moving_down = True
+            #Exit during the game
+            if event.key == pygame.K_ESCAPE:
+                sys.exit()
+            if event.key == pygame.K_F1:
+                restart = 1
+                return restart
 
         if event.type == pygame.KEYDOWN:
             player.choice = -1
@@ -67,7 +74,6 @@ def check_events(player):
             player.mouse_button_left, player.mouse_wheel, player.mouse_button_right = pressed_array
 
 
-
 def check_game_control_event():
     is_restart = False
     is_quit = False
@@ -78,8 +84,8 @@ def check_game_control_event():
             elif event.key == ord('q'):
                 is_quit = True
 
-
     return is_restart, is_quit
+
 
 def check_interaction_event():
     for event in pygame.event.get():
@@ -106,15 +112,13 @@ def check_interaction_event():
                 choice = 9
             elif event.key == ord('0'):
                 choice = 0
-            print("choice = ",choice)
-            return  choice
+            print("choice = ", choice)
+            return choice
+
 
 def blit_all(ai_settings, screen, player, monsters, bullets, probes, treasures, npc):
     # def blit_all(ai_settings, screen, player, skeleton):
     """Update images on the screen and flip to the new screen."""
-    # Redraw the screen during each pass through the loop.
-    # screen.fill(ai_settings.bg_color)
-    # screen.blit(ai_settings.bg, (0, 0))
     # Draw the walls
     for i in range(0, len(ai_settings.walls)):
         wallrect = pygame.draw.rect(screen, (0, 0, 0), ai_settings.walls[i].rect)
@@ -143,7 +147,7 @@ def blit_all(ai_settings, screen, player, monsters, bullets, probes, treasures, 
         bullet.blitme()
 
     # for probe in probes:
-        # probe.blitme()
+    # probe.blitme()
 
     for treasure in treasures:
         treasure.blitme()
@@ -194,6 +198,3 @@ def collide_walls(self):
                     # print("collideleft")
 
     return collidebottom, collidetop, collideright, collideleft, is_collide_wall
-
-
-

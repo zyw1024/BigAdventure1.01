@@ -1,6 +1,4 @@
 import math
-import pygame
-import game_functions as gf
 
 
 class Probe():
@@ -45,8 +43,10 @@ class Probe():
                 # print("Probe collide wall!")
 
         if skip == 0:
-            if self.rect.centerx < self.screen_rect.left or self.rect.centerx > self.screen_rect.right or \
-                    self.rect.centery < self.screen_rect.top or self.centery > self.screen_rect.bottom:
+            if self.rect.centerx < self.screen_rect.left \
+                    or self.rect.centerx > self.screen_rect.right \
+                    or self.rect.centery < self.screen_rect.top \
+                    or self.centery > self.screen_rect.bottom:
                 self.is_out_of_screen = True
                 skip = 1
                 # print("Probe out of screen!")
@@ -56,21 +56,14 @@ class Probe():
             # print("Probe collide player!")
 
     def update(self, target, probes):
-        # is_collide_wall = False
-        # is_out_of_screen = False
-        # is_target_found = False
-        # is_collide_wall = self.is_collide_wall
-        # is_out_of_screen = self.is_out_of_screen
-        # is_target_found = self.is_target_found4
         if self.is_alive:
             self.detect(target, probes)
+
             # Update the bullet's position
             self.centerx += self.x_speed
             self.centery += self.y_speed
             self.rect.centerx = self.centerx
             self.rect.centery = self.centery
-
-
 
     def blitme(self):
         self.screen.blit(self.image, self.rect)

@@ -1,11 +1,13 @@
-import random
-import pygame
 import math
+import random
+
+import numpy as np
+import pygame
+
 import bullet as b
 import game_functions as gf
 import probe as p
 import treasure as ts
-import numpy as np
 
 global tick
 tick = -1
@@ -248,7 +250,7 @@ class Monster():
         p_drop_none = 1 - p_drop_rarity1 - p_drop_rarity2 - p_drop_rarity3
         p1 = np.array([self.ai_settings.p_drop_red, self.ai_settings.p_drop_blue, self.ai_settings.p_drop_coins])
         p2 = np.array([p_drop_rarity1, p_drop_rarity2, p_drop_rarity3, p_drop_none])
-        final_drop_kind = np.random.choice(['red', 'blue','coins'], p=p1.ravel())
+        final_drop_kind = np.random.choice(['red', 'blue', 'coins'], p=p1.ravel())
         final_drop_rarity = np.random.choice([1, 2, 3, -1], p=p2.ravel())
 
         if final_drop_rarity != -1:
@@ -277,14 +279,13 @@ class Monster():
             if final_drop_kind == 'coins':
                 if final_drop_rarity == 1:
                     treasure = ts.Some_coins(self.rect.centerx, self.rect.centery, self.ai_settings, self.screen,
-                                               self.target)
+                                             self.target)
                 if final_drop_rarity == 2:
                     treasure = ts.Lots_of_coins(self.rect.centerx, self.rect.centery, self.ai_settings, self.screen,
-                                             self.target)
+                                                self.target)
                 if final_drop_rarity == 3:
                     treasure = ts.Massive_coins(self.rect.centerx, self.rect.centery, self.ai_settings, self.screen,
-                                             self.target)
-
+                                                self.target)
 
             # if final_drop_rarity != -1:
             #     self.treasures.append(treasure)

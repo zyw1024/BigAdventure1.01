@@ -1,7 +1,8 @@
 import random
+
 import pygame
+
 import sound
-import game_functions as gf
 
 
 class Non_Player_Character():
@@ -128,6 +129,7 @@ class Death(Non_Player_Character):
             self.is_dialogue_finished = True
 
 
+
 class Little_Girl(Non_Player_Character):
     def __init__(self, ai_settings, screen, target):
         super().__init__(ai_settings, screen, target)
@@ -186,7 +188,6 @@ class Little_Girl(Non_Player_Character):
             self.deal()
 
 
-
 def create_npc(ai_settings, screen, target):
     if ai_settings.level == 1:
         npc = Fortune_Cat(ai_settings, screen, target)
@@ -198,14 +199,3 @@ def create_npc(ai_settings, screen, target):
     else:
         return
     return npc
-
-# def text_in_center(speaker, text, screen, screen_rect):
-#     print("Text!")
-#     font = pygame.font.SysFont('arial', 36)
-#     text_surface = font.render(speaker + ": " + text,
-#                                     False, (255, 0, 0))
-#     text_surface_rect = text_surface.get_rect()
-#     text_surface_rect.left = screen_rect.left + screen_rect.width / 2 - text_surface_rect.width / 2
-#     text_surface_rect.top = screen_rect.top + screen_rect.height / 2 - text_surface_rect.height / 2
-#     screen.blit(text_surface, text_surface_rect)
-#     pygame.display.flip()

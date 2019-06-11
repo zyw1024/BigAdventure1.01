@@ -1,8 +1,7 @@
-import pygame
-import sys
-import sound
 import bullet as b
 import game_functions as gf
+import sound
+
 # from game_functions import mouse_x, mouse_y
 global tick
 tick = 0
@@ -18,7 +17,9 @@ class Player():
         self.is_alive = True
         self.health = self.ai_settings.player_health
         self.energy = self.ai_settings.player_energy
-        self.normal_attack_consumption = self.ai_settings.player_normal_attack_consumption
+        self.normal_attack_consumption = self.ai_settings.player_normal_attack_energy_consumption
+        self.coin_attack_consumption = self.ai_settings.player_coin_attack_coin_consumption
+        self.skull_attack_consumption = self.ai_settings.player_skull_attack_health_consumption
         self.coins = 0
         # self.coins = 1000
         self.choice = -1
@@ -37,13 +38,16 @@ class Player():
         elif self.ai_settings.startx == ai_settings.maze_width - 1:
             self.rect.right = ai_settings.screen_width
         else:
-            self.rect.centerx = self.ai_settings.startx * ai_settings.maze_block_width + (ai_settings.maze_block_width / 2)
+            self.rect.centerx = self.ai_settings.startx * ai_settings.maze_block_width + (
+                    ai_settings.maze_block_width / 2)
+
         if self.ai_settings.starty == 0:
             self.rect.top = 0
         elif self.ai_settings.starty == ai_settings.maze_height - 1:
             self.rect.bottom = ai_settings.screen_height
         else:
-            self.rect.centery = self.ai_settings.starty * ai_settings.maze_block_height + (ai_settings.maze_block_height / 2)
+            self.rect.centery = self.ai_settings.starty * ai_settings.maze_block_height + (
+                    ai_settings.maze_block_height / 2)
 
         # Store a decimal value for the player's center.
         self.centerx = float(self.rect.centerx)
@@ -56,70 +60,83 @@ class Player():
         self.moving_top = False
         self.moving_down = False
 
-        #mouse status
+        # mouse status
         self.mouse_x = 0
         self.mouse_y = 0
         self.mouse_button_left = False
         self.mouse_button_right = False
         self.mouse_wheel = False
 
-
     def attack(self, bullets):
         source_atk = self.atk
         source_rect = self.rect
-        bullet = b.RedBullet(source_rect, source_atk, self.enemies, self.mouse_x, self.mouse_y, self.ai_settings, self.screen)
+        bullet = b.RedBullet(source_rect, source_atk, self.enemies, self.mouse_x, self.mouse_y, self.ai_settings,
+                             self.screen)
         sound.player_normal_attack_sound(self.ai_settings)
         bullets.append(bullet)
-        self.energy -= 1
+        self.energy -= self.normal_attack_consumption
 
     def coin_attack(self, bullets):
         if self.ai_settings.is_coin_attack_valid:
-            source_atk = self.atk * 1.2
+            source_atk = self.atk * self.ai_settings.coin_bullet_multiple
             source_rect = self.rect
-            bullet = b.CoinBullet(source_rect, source_atk, self.enemies, self.mouse_x, self.mouse_y, self.ai_settings, self.screen)
+            bullet = b.CoinBullet(source_rect, source_atk, self.enemies, self.mouse_x, self.mouse_y, self.ai_settings,
+                                  self.screen)
             sound.player_coin_attack_sound(self.ai_settings)
             bullets.append(bullet)
-            self.coins -= 1
+            self.coins -= self.coin_attack_consumption
 
     def skull_attack(self, bullets):
         if self.ai_settings.is_skull_attack_valid:
-            source_atk = self.atk * 1.5
+            source_atk = self.atk * self.ai_settings.skull_bullet_multiple
             source_rect = self.rect
-            bullet = b.Skull_Bullet(source_rect, source_atk, self.enemies, self.mouse_x, self.mouse_y, self.ai_settings, self.screen)
+            bullet = b.Skull_Bullet(source_rect, source_atk, self.enemies, self.mouse_x, self.mouse_y, self.ai_settings,
+                                    self.screen)
             sound.player_skull_attack_sound(self.ai_settings)
             bullets.append(bullet)
-            self.health -= 10
+            self.health -= self.skull_attack_consumption
 
     def update(self, bullets):
-        #Time update
+        # Time update
         self.tick += 1
-        #test
+        # test
         # self.health = 3000
 
         # Check for End Game
         if self.rect.colliderect(self.ai_settings.end) and \
-                (self.rect.left <= self.screen_rect.left or
+                (self.rect.left <= self.screen_rect.left or \
                  self.rect.right >= self.screen_rect.right or \
-                    self.rect.top <= self.screen_rect.top or
-                 self.rect.bottom >= self.screen_rect.bottom ):
+                 self.rect.top <= self.screen_rect.top or \
+                 self.rect.bottom >= self.screen_rect.bottom):
             self.ai_settings.gamedone = True
             self.ai_settings.player_pre_health = self.health
             self.ai_settings.player_pre_energy = self.energy
             self.ai_settings.player_pre_coins = self.coins
 
-        #Update the player's position
+        # Update the player's position
         collidebottom, collidetop, collideright, collideleft, is_collide_wall = gf.collide_walls(self)
         # if (is_collide_wall):
         #     print("player collide the wall!")
 
         if self.is_alive:
-            if self.moving_right and self.rect.right < self.screen_rect.right and collideright != 1:
+            if self.moving_right \
+                    and self.rect.right < self.screen_rect.right \
+                    and collideright != 1:
                 self.centerx += self.ai_settings.player_speed_factor
-            if self.moving_left and self.rect.left > 0 and collideleft != 1:
+
+            if self.moving_left \
+                    and self.rect.left > 0 \
+                    and collideleft != 1:
                 self.centerx -= self.ai_settings.player_speed_factor
-            if self.moving_top and self.rect.top > self.screen_rect.top and collidetop != 1:
+
+            if self.moving_top \
+                    and self.rect.top > self.screen_rect.top \
+                    and collidetop != 1:
                 self.centery -= self.ai_settings.player_speed_factor
-            if self.moving_down and self.rect.bottom < self.screen_rect.bottom and collidebottom != 1:
+
+            if self.moving_down \
+                    and self.rect.bottom < self.screen_rect.bottom \
+                    and collidebottom != 1:
                 self.centery += self.ai_settings.player_speed_factor
 
             # Update rect object from self.center.
@@ -129,17 +146,19 @@ class Player():
             global tick
             tick += 1
 
-            #Update  moving images
+            # Update  moving images
             if self.ai_settings.player_index >= (len(self.ai_settings.player_left) - 1):
                 self.ai_settings.player_index = 0
+
             if self.mouse_x - self.centerx < 0:
                 self.image = self.ai_settings.player_left[self.ai_settings.player_index]
             elif self.mouse_x - self.centerx > 0:
                 self.image = self.ai_settings.player_right[self.ai_settings.player_index]
-            if(tick % self.ai_settings.img_change_interval == 0):
+
+            if (tick % self.ai_settings.img_change_interval == 0):
                 self.ai_settings.player_index += 1
 
-            #Press mouse left button to attack
+            # Press mouse left button to attack
             if self.mouse_button_left:
                 # self.attack(bullets)
                 if self.energy >= self.normal_attack_consumption:
@@ -156,16 +175,17 @@ class Player():
                     if self.tick % self.shoot_interval == 0:
                         self.skull_attack(bullets)
 
-        #Player dead
+        # Player dead
         if self.health <= 0:
-            #Update death images
+            # Update death images
             if self.ai_settings.player_death_index >= (len(self.ai_settings.player_death)):
                 self.image = self.ai_settings.player_death[len(self.ai_settings.player_death) - 1]
                 self.is_alive = False
             else:
                 self.image = self.ai_settings.player_death[self.ai_settings.player_death_index]
+
             if tick % 10 == 0:
-                self.ai_settings.player_death_index +=1
+                self.ai_settings.player_death_index += 1
 
     def blitme(self):
         """Draw the player at it's current location."""

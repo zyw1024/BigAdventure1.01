@@ -1,11 +1,10 @@
-import pygame
-from settings import Settings
-from player import Player
-import game_functions as gf
-from monster import *
-import non_player_character
 import sys
+
+import non_player_character
 import sound
+from monster import *
+from player import Player
+from settings import Settings
 
 print("Hello from Yiwen Zhang")
 
@@ -24,7 +23,7 @@ def run_game():
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
     screen_rect = screen.get_rect()
     # screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
-    pygame.display.set_caption("Meandering Muck - Level " + str(ai_settings.level))
+    pygame.display.set_caption("BigAdventure - Level " + str(ai_settings.level))
 
     # Initialize bullets list
     bullets = []
@@ -41,10 +40,10 @@ def run_game():
     # Initialize treasures
     treasures = []
 
-    #Initialize npc
+    # Initialize npc
     npc = None
 
-    #Create monsters
+    # Create monsters
     for i in range(len(ai_settings.monster_born_coordinate)):
         monsters.append(create_monster(ai_settings, screen, player, probes, treasures))
         ai_settings.monster_born_coordinate.pop()
@@ -77,12 +76,14 @@ def run_game():
             probes = []
             treasures = []
 
-            #create monsters
+            # create monsters
             for i in range(len(ai_settings.monster_born_coordinate)):
                 monsters.append(create_monster(ai_settings, screen, player, probes, treasures))
                 ai_settings.monster_born_coordinate.pop()
 
-        gf.check_events(player)
+        #Check player's events and check whether there is a need to restart
+        if gf.check_events(player):
+            run_game()
 
         if not GAME_OVER and not WIN:
             # Update all elements from here
@@ -94,7 +95,7 @@ def run_game():
                 else:
                     monsters.remove(monster)
 
-            #create npcs
+            # create npcs
             if len(monsters) == 0 and npc == None:
                 npc = non_player_character.create_npc(ai_settings, screen, player)
 
@@ -183,10 +184,11 @@ def run_game():
         #         pygame.quit()
         pygame.display.flip()
 
-        while GAME_OVER == True:
+        # while GAME_OVER == True:
+        if GAME_OVER == True:
             fontObj = pygame.font.SysFont('arial', 36)
             textSurfaceObj = fontObj.render("GAME OVER!" + "R to restart, Q to quit",
-                                                False, (0, 0, 0))
+                                            False, (0, 0, 0))
             textRectObj = textSurfaceObj.get_rect()
             textRectObj.left = screen_rect.left + screen_rect.width / 2 - textRectObj.width / 2
             textRectObj.top = screen_rect.top + screen_rect.height / 2 - textRectObj.height / 2
@@ -195,13 +197,9 @@ def run_game():
 
             is_restart, is_quit = gf.check_game_control_event()
             if is_restart:
-               run_game()
+                run_game()
             if is_quit:
-                pygame.quit()
-                return
-
-
-
+                sys.quit()
 
 
 run_game()

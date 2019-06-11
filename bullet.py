@@ -1,6 +1,6 @@
 import math
-import pygame
-import game_functions as gf
+
+import sound
 
 
 class Bullet():
@@ -25,9 +25,10 @@ class Bullet():
                 if self.target.is_alive == True:
                     self.target.health -= self.atk
                     self.is_alive = False
-                    return
+                    # return
 
             # Update the bullet's position
+
             self.centerx += self.x_speed
             self.centery += self.y_speed
             self.rect.centerx = self.centerx
@@ -37,11 +38,26 @@ class Bullet():
         self.screen.blit(self.image, self.rect)
 
 
-class BlueBullet(Bullet):
+class MonsterBullet(Bullet):
+    def update(self):
+        super().update()
+        if self.rect.colliderect(self.target):
+            if self.rank == 1:
+                sound.player_minor_wound_sound(self.ai_settings)
+            elif self.rank == 2:
+                sound.player_minor_wound_sound(self.ai_settings)
+            elif self.rank == 3:
+                sound.player_middle_wound_sound(self.ai_settings)
+            elif self.rank == 4:
+                sound.player_severe_wound_sound(self.ai_settings)
+
+
+class BlueBullet(MonsterBullet):
     """Monster bullet, rank1"""
 
     def __init__(self, source_rect, source_atk, target, ai_settings, screen):
         self.is_alive = True
+        self.rank = 1
         self.target = target
         self.screen = screen
         self.screen_rect = self.screen.get_rect()
@@ -64,11 +80,12 @@ class BlueBullet(Bullet):
         self.y_speed = len_y / times
 
 
-class Fireball(Bullet):
+class Fireball(MonsterBullet):
     """Monster bullet, rank2"""
 
     def __init__(self, source_rect, source_atk, target, ai_settings, screen):
         self.is_alive = True
+        self.rank = 2
         self.target = target
         self.screen = screen
         self.screen_rect = self.screen.get_rect()
@@ -91,11 +108,12 @@ class Fireball(Bullet):
         self.y_speed = len_y / times
 
 
-class Lightning_ball(Bullet):
+class Lightning_ball(MonsterBullet):
     """Monster bullet, rank3"""
 
     def __init__(self, source_rect, source_atk, target, ai_settings, screen):
         self.is_alive = True
+        self.rank = 3
         self.target = target
         self.screen = screen
         self.screen_rect = self.screen.get_rect()
@@ -118,11 +136,12 @@ class Lightning_ball(Bullet):
         self.y_speed = len_y / times
 
 
-class Black_fireball(Bullet):
+class Black_fireball(MonsterBullet):
     """Monster bullet, rank4"""
 
     def __init__(self, source_rect, source_atk, target, ai_settings, screen):
         self.is_alive = True
+        self.rank = 4
         self.target = target
         self.screen = screen
         self.screen_rect = self.screen.get_rect()
@@ -148,14 +167,18 @@ class Black_fireball(Bullet):
 class Player_Bullet(Bullet):
     def update(self):
         if self.is_alive:
+
             # Wheter collide a wall
             for i in range(0, len(self.ai_settings.walls)):
                 if self.rect.colliderect(self.ai_settings.walls[i].rect):
                     self.is_alive = False
                     return
+
             # Whether out of screen
-            if self.rect.centerx < self.screen_rect.left or self.rect.centerx > self.screen_rect.right or \
-                    self.rect.centery < self.screen_rect.top or self.rect.centery > self.screen_rect.bottom:
+            if self.rect.centerx < self.screen_rect.left or \
+                    self.rect.centerx > self.screen_rect.right or \
+                    self.rect.centery < self.screen_rect.top or \
+                    self.rect.centery > self.screen_rect.bottom:
                 self.is_alive = False
                 return
 
@@ -168,10 +191,16 @@ class Player_Bullet(Bullet):
                         return
 
             # Update the bullet's position
+            print("centerx(before) = ", self.centerx)
+            print("centery(before) = ", self.centery)
             self.centerx += self.x_speed
             self.centery += self.y_speed
+            print("centerx = ", self.centerx)
+            print("centery = ", self.centery)
             self.rect.centerx = self.centerx
             self.rect.centery = self.centery
+            print("rect.centerx = ", self.rect.centerx)
+            print("rect.centery = ", self.rect.centery)
 
 
 class RedBullet(Player_Bullet):
@@ -199,33 +228,6 @@ class RedBullet(Player_Bullet):
         self.x_speed = len_x / times
         self.y_speed = len_y / times
 
-    # def update(self):
-    #     if self.is_alive:
-    #         # Wheter collide a wall
-    #         for i in range(0, len(self.ai_settings.walls)):
-    #             if self.rect.colliderect(self.ai_settings.walls[i].rect):
-    #                 self.is_alive = False
-    #                 return
-    #         # Whether out of screen
-    #         if self.rect.centerx < self.screen_rect.left or self.rect.centerx > self.screen_rect.right or \
-    #                 self.rect.centery < self.screen_rect.top or self.rect.centery > self.screen_rect.bottom:
-    #             self.is_alive = False
-    #             return
-    #
-    #         # Whether collide the target. If true, give a damage to target
-    #         for enemy in self.enemies:
-    #             if self.rect.colliderect(enemy.rect):
-    #                 if enemy.is_alive:
-    #                     enemy.health -= self.atk
-    #                     self.is_alive = False
-    #                     return
-    #
-    #         # Update the bullet's position
-    #         self.centerx += self.x_speed
-    #         self.centery += self.y_speed
-    #         self.rect.centerx = self.centerx
-    #         self.rect.centery = self.centery
-
 
 class CoinBullet(Player_Bullet):
 
@@ -251,33 +253,6 @@ class CoinBullet(Player_Bullet):
         times = s / self.speed
         self.x_speed = len_x / times
         self.y_speed = len_y / times
-
-    # def update(self):
-    #     if self.is_alive:
-    #         # Wheter collide a wall
-    #         for i in range(0, len(self.ai_settings.walls)):
-    #             if self.rect.colliderect(self.ai_settings.walls[i].rect):
-    #                 self.is_alive = False
-    #                 return
-    #         # Whether out of screen
-    #         if self.rect.centerx < self.screen_rect.left or self.rect.centerx > self.screen_rect.right or \
-    #                 self.rect.centery < self.screen_rect.top or self.rect.centery > self.screen_rect.bottom:
-    #             self.is_alive = False
-    #             return
-    #
-    #         # Whether collide the target. If true, give a damage to target
-    #         for enemy in self.enemies:
-    #             if self.rect.colliderect(enemy.rect):
-    #                 if enemy.is_alive:
-    #                     enemy.health -= self.atk
-    #                     self.is_alive = False
-    #                     return
-    #
-    #         # Update the bullet's position
-    #         self.centerx += self.x_speed
-    #         self.centery += self.y_speed
-    #         self.rect.centerx = self.centerx
-    #         self.rect.centery = self.centery
 
 
 class Skull_Bullet(Player_Bullet):

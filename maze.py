@@ -8,7 +8,7 @@ def make_maze(s):
     shape = s.maze_height, s.maze_width
     # Build empty Maze
     maze = numpy.zeros(shape, dtype=int)
-    print("1st, Build empty maze:\n",maze)
+    print("1st, Build empty maze:\n", maze)
     # Fill border walls
     maze[0, :] = maze[-1, :] = 1
     maze[:, 0] = maze[:, -1] = 1
@@ -18,7 +18,7 @@ def make_maze(s):
     miny = 0
     maxy = s.maze_height - 1
     maze = maze_section(maze, minx, maxx, miny, maxy, 1)
-    #test
+    # test
     # print(maze)
     # print("maze_width: " + str(s.maze_width))
     # print("maze_height: " + str(s.maze_height))
@@ -26,7 +26,6 @@ def make_maze(s):
     # print(maze[miny+1,:])
     # print(maze[miny+2,:])
     return maze
-
 
 
 def maze_section(maze, minx, maxx, miny, maxy, iteration):
@@ -48,17 +47,15 @@ def maze_section(maze, minx, maxx, miny, maxy, iteration):
     # check for corridors that are too small for a wall due to the 1 space on either side limit and door positioning
     if (maxx - minx) <= len(invalidrows) + 1 or (maxy - miny) <= len(invalidcols) + 1:
         return maze
-    # Push wall & corr out of min, but leave it in the max as the max is never picked
     wallx = 0
     while wallx == 0 or wallx in invalidrows:
         wallx = rand((minx + 2), maxx - 1)
-        # wallx = rand((minx + 0), maxx - 1)
     wally = 0
     while wally == 0 or wally in invalidcols:
         wally = rand((miny + 2), maxy - 1)
 
     print("3rd, set cross walls")
-    print("wally, wallx = ",wally,",",wallx)
+    print("wally, wallx = ", wally, ",", wallx)
     # set bits to 1 for the walls
     maze[wally, (minx + 1):maxx] = 1
     maze[(miny + 1):maxy, wallx] = 1
@@ -67,48 +64,48 @@ def maze_section(maze, minx, maxx, miny, maxy, iteration):
     # Make 3 doors at random
     # coin flip to see if a door should be placed, otherwise flag a skip
     if rand(1, 3) == 1:
-        maze = door(maze, "x", wallx, miny, wally)  #  left
+        maze = door(maze, "x", wallx, miny, wally)  # left
     else:
         skip = 1
     if rand(1, 3) == 1 or skip > 0:
-        maze = door(maze, "y", wally, wallx, maxx)  #  lower
+        maze = door(maze, "y", wally, wallx, maxx)  # lower
     else:
         skip = 2
     if rand(1, 3) == 1 or skip > 0:
-        maze = door(maze, "x", wallx, wally, maxy)  #  right
+        maze = door(maze, "x", wallx, wally, maxy)  # right
     else:
         skip = 3
     if skip > 0:
-        maze = door(maze, "y", wally, minx, wallx)  #  upper
+        maze = door(maze, "y", wally, minx, wallx)  # upper
 
     print("4th, make 3 random doors among the corss walls")
     print(maze)
     # Determine where the start and end are
     if iteration == 1:
         if skip == 1:
-            #point is start door or end door
+            # point is start door or end door
             if rand(1, 3) == 1:
                 point = 2
             else:
                 point = 3
 
-            #put door at top left
+            # put door at top left
             if rand(1, 3) == 1:
                 maze[rand((miny + 1), wally), minx] = point
-            #put door at left upper
+            # put door at left upper
             else:
                 maze[miny, rand((minx + 1), wallx)] = point
 
-             #exchange the value of the point
+            # exchange the value of the point
             if point == 2:
                 point = 3
             else:
                 point = 2
 
-            #put door at bottom left
+            # put door at bottom left
             if rand(1, 3) == 1:
                 maze[rand((miny + 1), wally), maxx] = point
-            #put door at left lower
+            # put door at left lower
             else:
                 maze[miny, rand((wallx + 1), maxx)] = point
 
@@ -118,23 +115,23 @@ def maze_section(maze, minx, maxx, miny, maxy, iteration):
             else:
                 point = 3
 
-            #put the door at bottom left
+            # put the door at bottom left
             if rand(1, 3) == 1:
                 maze[rand((miny + 1), wally), maxx] = point
-            #put the door at left lower
+            # put the door at left lower
             else:
                 maze[miny, rand((wallx + 1), maxx)] = point
 
-            #exchange the value of the point
+            # exchange the value of the point
             if point == 2:
                 point = 3
             else:
                 point = 2
 
-            #put the door at bottom right
+            # put the door at bottom right
             if rand(1, 3) == 1:
                 maze[rand((wally + 1), maxy), maxx] = point
-            #put the door at right lower
+            # put the door at right lower
             else:
                 maze[maxy, rand((wallx + 1), maxx)] = point
 
@@ -143,23 +140,23 @@ def maze_section(maze, minx, maxx, miny, maxy, iteration):
                 point = 2
             else:
                 point = 3
-            #put the door at bottom right
+            # put the door at bottom right
             if rand(1, 3) == 1:
                 maze[rand((wally + 1), maxy), maxx] = point
-            #put the right lower
+            # put the right lower
             else:
                 maze[maxy, rand((wallx + 1), maxx)] = point
 
-            #exchange the point value
+            # exchange the point value
             if point == 2:
                 point = 3
             else:
                 point = 2
 
-             #put the door at top right
+            # put the door at top right
             if rand(1, 3) == 1:
                 maze[rand((wally + 1), maxy), minx] = point
-            #put the door at right upper
+            # put the door at right upper
             else:
                 maze[maxy, rand((minx + 1), wallx)] = point
         else:
@@ -168,23 +165,23 @@ def maze_section(maze, minx, maxx, miny, maxy, iteration):
             else:
                 point = 3
 
-            #put the door at top right
+            # put the door at top right
             if rand(1, 3) == 1:
                 maze[rand((wally + 1), maxy), minx] = point
-            #put the door at right upper
+            # put the door at right upper
             else:
                 maze[maxy, rand((minx + 1), wallx)] = point
 
-            #exchange the point value
+            # exchange the point value
             if point == 2:
                 point = 3
             else:
                 point = 2
 
-            #put the door at top left
+            # put the door at top left
             if rand(1, 3) == 1:
                 maze[rand((miny + 1), wally), minx] = point
-            #put the door at left upper
+            # put the door at left upper
             else:
                 maze[miny, rand((minx + 1), wallx)] = point
 
@@ -212,7 +209,6 @@ def define_maze(s, maze):
     walls = []
     roads = []
     skeleton_soldiers = []
-    # for (x, y), value in numpy.ndenumerate(maze):
     for (y, x), value in numpy.ndenumerate(maze):
         wall = t.Wall(s, (x * s.maze_block_width), (y * s.maze_block_height))
         road = t.Road(s, (x * s.maze_block_width), (y * s.maze_block_height))
@@ -225,5 +221,3 @@ def define_maze(s, maze):
         elif value == 3:
             end = wall
     return walls, roads, start, end
-
-
