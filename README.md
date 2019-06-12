@@ -2,7 +2,7 @@
 Hello! This is a roguelike game. You act as a bear meandering in a maze with monsters and treasures.
 Press 'W','A','S','D' to move, mouse button to attack.
 
-The materials are from the internet.Please do not use it for commercial purpose.
+The art materials are from the internet.Please do not use it for commercial purpose.
 
 《大冒险》用户手册
 1软硬件环境
@@ -22,7 +22,7 @@ The materials are from the internet.Please do not use it for commercial purpose.
 	键盘鼠标
 2	进行游戏
 2.1	启动游戏
-本游戏无需安装直接点开Big Adventure目录下的Big Adventure.exe即可启动程序进入游戏。
+本游戏无需安装直接点开dist目录下的Big Adventure.exe即可启动程序进入游戏。
 2.2	游戏界面
 在屏幕左上角会出现“HP”，“MP”，“Coins”的字样，分别代表生命值、能量值和金币数。
 2.3	基本操作
