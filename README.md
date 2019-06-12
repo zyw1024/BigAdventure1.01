@@ -5,7 +5,7 @@ Press 'W','A','S','D' to move, mouse button to attack.
 The materials are from the internet.Please do not use it for commercial purpose.
 
 《大冒险》用户手册
-1	软硬件环境
+1软硬件环境
 最低配置：
 	操作系统：Windows 10
 	CPU：Core i3
@@ -41,5 +41,7 @@ The materials are from the internet.Please do not use it for commercial purpose.
 (3)	当玩家死亡时游戏界面中央会显示“GAME OVER! R to restart, Q to quit”玩家可以按下键盘“R”键重新开始游戏或者“Q”键退出游戏。
 (4)	当玩家通关后，游戏界面中央会显示“You win! R to restart, Q to quit”，同样地，此时玩家可以按下键盘“R”键重新开始游戏或者“Q”键退出游戏。
 
- 
+ V1.01更新
+ 加入两个快捷键：
+ 在游戏进行中可以按“Esc"退出，“F1”重新开始。注意，这两个快捷键只在游戏进行中生效。当玩家游戏失败或通关时请仍按照界面提示，按“Q”退出，“R”重新开始。
 
