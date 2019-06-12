@@ -1,2 +1,3 @@
 *.html linguist-vendored
-*.TeX linguist-vendired
+*.toc linguist-vendired
+*.txt linguist-vendired
